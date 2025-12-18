@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Minion",
+    "imageurl": "https://i.pinimg.com/1200x/c3/33/f6/c333f66a8cbe6942b5bd62d794f282ec.jpg",
+    "sellingPrice": 550,
+    "originalPrice": 650,
+    "category": "soft toy"
+  },
+  {
+    "id": 2,
+    "name": "Elephant",
+    "imageurl": "https://i.pinimg.com/1200x/95/d0/2f/95d02f21b60b77e8f637a33e1e86049d.jpg",
+    "sellingPrice": 800,
+    "originalPrice": 950,
+    "category": "soft toy"
+  },
+  {
+    "id": 3,
+    "name": "Handmade Kangaroo",
+    "imageurl": "https://i.pinimg.com/736x/9d/c4/12/9dc4122bcaf1b2bc0866e419acdaca8a.jpg",
+    "sellingPrice": 450,
+    "originalPrice": 600,
+    "category": "soft toy"
+  },
+  {
+    "id": 4,
+    "name": "Bunny",
+    "imageurl": "https://i.pinimg.com/1200x/3a/21/15/3a2115f810987240004773dc9e52b1a3.jpg",
+    "sellingPrice": 850,
+    "originalPrice": 1000,
+    "category": "soft toy"
+  },
+  {
+    "id": 5,
+    "name": "Squirrel",
+    "imageurl": "https://i.pinimg.com/736x/1d/2a/ca/1d2aca4eb6a68667a664bac4889902e9.jpg",
+    "sellingPrice": 900,
+    "originalPrice": 1100,
+    "category": "soft toy"
+  },
+  {
+    "id": 6,
+    "name": "Husky",
+    "imageurl": "https://i.pinimg.com/736x/ec/1d/35/ec1d359bfcf06577a8dec28a3e2d94af.jpg",
+    "sellingPrice": 1300,
+    "originalPrice": 1500,
+    "category": "soft toy"
+  },
+  {
+    "id": 7,
+    "name": "Captain America",
+    "imageurl": "https://i.pinimg.com/736x/bf/83/85/bf8385e570d21b55cafe1a1867a3f68c.jpg",
+    "sellingPrice": 850,
+    "originalPrice": 1000,
+    "category": "crochet toy"
+  },
+  {
+    "id": 8,
+    "name": "Dragon",
+    "imageurl": "https://i.pinimg.com/1200x/24/2b/89/242b891a5fd10beb10c289ea0c28b11d.jpg",
+    "sellingPrice": 750,
+    "originalPrice": 900,
+    "category": "crochet toy"
+  },
+  {
+    "id": 9,
+    "name": "Tom",
+    "imageurl": "https://i.pinimg.com/736x/5f/77/da/5f77da1cf5f026318457fe0e05de0ae6.jpg",
+    "sellingPrice": 1200,
+    "originalPrice": 1400,
+    "category": "crochet toy"
+  },
+  {
+    "id": 10,
+    "name": "Iron Man",
+    "imageurl": "https://i.pinimg.com/736x/be/0b/e0/be0be02b4d597b1a3c1de714e321e458.jpg",
+    "sellingPrice": 950,
+    "originalPrice": 1200,
+    "category": "crochet toy"
+  },
+  {
+    "id": 11,
+    "name": "Groot",
+    "imageurl": "https://i.pinimg.com/736x/d6/db/83/d6db839788897607e21dd71b50b4542f.jpg",
+    "sellingPrice": 1000,
+    "originalPrice": 1300,
+    "category": "crochet toy"
+  },
+  {
+    "id": 12,
+    "name": "Octopus",
+    "imageurl": "https://i.pinimg.com/1200x/6c/f8/0b/6cf80b17a7c979ada323949dd391e32b.jpg",
+    "sellingPrice": 800,
+    "originalPrice": 1000,
+    "category": "soft toy"
+  },
+  {
+    "id": 13,
+    "name": "Mickey",
+    "imageurl": "https://i.pinimg.com/1200x/02/3b/a4/023ba4c2a890d5e397310570afb6fbab.jpg",
+    "sellingPrice": 950,
+    "originalPrice": 1200,
+    "category": "soft toy"
+  },
+  {
+    "id": 14,
+    "name": "Panda",
+    "imageurl": "https://i.pinimg.com/736x/dc/9e/3a/dc9e3a3eaf68978b01d47e7ab44b244c.jpg",
+    "sellingPrice": 1100,
+    "originalPrice": 1300,
+    "category": "soft toy"
+  },
+  {
+    "id": 15,
+    "name": "Capybera",
+    "imageurl": "https://i.pinimg.com/736x/b2/c8/17/b2c8178bff5e6b6550f8ddd58a662d00.jpg",
+    "sellingPrice": 1300,
+    "originalPrice": 1500,
+    "category": "soft toy"
+  },
+  {
+    "id": 16,
+    "name": "Jack Sparrow",
+    "imageurl": "https://i.pinimg.com/736x/0c/8f/6a/0c8f6aa1cb02cff18e97080029ea59d4.jpg",
+    "sellingPrice": 850,
+    "originalPrice": 1000,
+    "category": "crochet toy"
+  },
+  {
+    "id": 17,
+    "name": "Angry Bird Rio",
+    "imageurl": "https://i.pinimg.com/736x/87/98/e4/8798e4e9368d658d66a45c285b60e08c.jpg",
+    "sellingPrice": "747",
+    "originalPrice": "950",
+    "category": "soft-toy"
+  }
+]

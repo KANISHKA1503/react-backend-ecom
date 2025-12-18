@@ -1,0 +1,47 @@
+[
+  {
+    "id": 3,
+    "name": "Handmade Kangaroo",
+    "imageurl": "https://i.pinimg.com/736x/9d/c4/12/9dc4122bcaf1b2bc0866e419acdaca8a.jpg",
+    "sellingPrice": 450,
+    "originalPrice": 600,
+    "category": "soft toy",
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "name": "Bunny",
+    "imageurl": "https://i.pinimg.com/1200x/3a/21/15/3a2115f810987240004773dc9e52b1a3.jpg",
+    "sellingPrice": 850,
+    "originalPrice": 1000,
+    "category": "soft toy",
+    "quantity": 4
+  },
+  {
+    "id": 12,
+    "name": "Octopus",
+    "imageurl": "https://i.pinimg.com/1200x/6c/f8/0b/6cf80b17a7c979ada323949dd391e32b.jpg",
+    "sellingPrice": 800,
+    "originalPrice": 1000,
+    "category": "soft toy",
+    "quantity": 1
+  },
+  {
+    "id": 12,
+    "name": "Octopus",
+    "imageurl": "https://i.pinimg.com/1200x/6c/f8/0b/6cf80b17a7c979ada323949dd391e32b.jpg",
+    "sellingPrice": 800,
+    "originalPrice": 1000,
+    "category": "soft toy",
+    "quantity": 1
+  },
+  {
+    "id": 15,
+    "name": "Capybera",
+    "imageurl": "https://i.pinimg.com/736x/b2/c8/17/b2c8178bff5e6b6550f8ddd58a662d00.jpg",
+    "sellingPrice": 1300,
+    "originalPrice": 1500,
+    "category": "soft toy",
+    "quantity": 1
+  }
+]
