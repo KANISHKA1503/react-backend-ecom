@@ -1,7 +1,8 @@
 const User=require ("../models/User")
 const bcrypt=require("bcrypt")
 const jwt=require("jsonwebtoken")
-const SECRET_KEY="big_bang_theorey"
+const SECRET_KEY=process.env.SECRET_KEY || "big_bang_theorey"
+const JWT_EXPIRES_IN=process.env.JWT_EXPIRES_IN || "1d"
 const registerUser=async(req,res)=>
 {
     try{
@@ -34,8 +35,8 @@ const loginUser=async(req,res)=>
     return}
     const token=jwt.sign(
         {id:user._id,email:user.email},
-        process.env.SECRET_KEY,
-        {expiresIn:process.env.JWT_EXPIRES_IN}
+        SECRET_KEY,
+        {expiresIn:JWT_EXPIRES_IN}
     )
     res.status(200).json({message:"Login Successful",token})
     }catch(err)
