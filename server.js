@@ -28,7 +28,7 @@ app.use(cors({
 app.use(express.json());
 
 // Admin credentials
-const ADMIN_EMAIL = 'admin@ecommerce.com';
+const ADMIN_EMAIL = 'admin@gmail.com';
 const ADMIN_PASSWORD = 'Admin@123';
 
 // Create admin
