@@ -5,11 +5,11 @@ const bcrypt = require('bcrypt');
 const connectDB = require('./config/db');
 const User = require('./models/User');
 
-const productsRouter = require('./router/products');
-const cartRouter = require('./router/cart');
-const authRouter = require('./router/auth');
-const ordersRouter = require('./router/order');
-const authMiddleware = require('./middlewares/authMiddleware');
+const productsRouter = require('./routes/products');
+const cartRouter = require('./routes/cart');
+const authRouter = require('./routes/auth');
+const ordersRouter = require('./routes/orders');
+const authMiddleware = require('./middleware/authMiddleware');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
