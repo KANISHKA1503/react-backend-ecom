@@ -50,7 +50,7 @@ connectDB().then(createAdminUser);
 
 // Routes
 app.use('/auth', authRouter);
-app.use('/products', authMiddleware, productsRouter);
+app.use('/products', productsRouter);
 app.use('/carts', authMiddleware, cartRouter);
 app.use('/orders', authMiddleware, ordersRouter);
 

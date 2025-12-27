@@ -1,14 +1,24 @@
 const Product=require("../models/Product")
 const getProducts=async(req,res)=>
 {
-    const products=await Product.find()
-    if(products)
-    {
-        res.json(products)
-    }
-    else{
-        res.status(404).json({error:"Products not Found"})
-    }
+  const products = await Product.find();
+  if (products) {
+    // Ensure each product has an 'id' field for frontend compatibility
+    const mappedProducts = products.map((product) => {
+      // If 'id' exists, use it, else fallback to '_id'
+      return {
+        id: product.id || product._id,
+        name: product.name,
+        originalPrice: product.originalPrice,
+        sellingPrice: product.sellingPrice,
+        imageurl: product.imageurl,
+        category: product.category
+      };
+    });
+    res.json(mappedProducts);
+  } else {
+    res.status(404).json({ error: "Products not Found" });
+  }
 }
 const getProductsById=async(req,res)=>
 {
